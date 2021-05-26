@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Zodiac Signs Project</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id = "box">
+<h1 style="color:white;">Want to know<br>your constellation sign?</h1>
+</div><br>
+<h2 style="color:white;"> Please enter your birthday</h2>
+<h3 style="color:white;">Month:<input type="number" id="month" min="1" max="12" > Day:<input type="number" id="day" min="1" max="31"></h3><br>
+<a onclick="zodiac()"  class="button">Find your zodiac sign! </a>
+<p id="photo"></p><br>
+<p id= "space" style="color:#EAB9B9;"> Your constellation sign is <span id="output"></span> </p>
+<p id="characteristic"></p>
+
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

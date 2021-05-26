@@ -1,0 +1,36 @@
+body {  
+	background-image: url("https://64.media.tumblr.com/94405cfd431c45b52a4dc0f228276687/tumblr_oqcegxmaXa1vjtbrjo1_500.gifv");
+	background-color: #cccccc;
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	font-family: 'Arial', sans-serif;
+	font-size:20px;
+	letter-spacing: 3px;
+	text-align:center;
+}
+
+#characteristic {
+	margin: auto;
+	width: 60%;
+	color:#87ceeb;
+	font-family: 'Calibri', sans-serif;
+	padding: 21px;
+}
+
+#space {
+	font-size:40px;
+}
+
+a.button {
+	background: cyan;
+	border-radius: 7px;
+	margin-bottom:70px;
+	color: purple;
+	font-size: 20px;
+	letter-spacing: 3px;
+	padding: 10px 30px;
+	text-decoration: none;
+} 	
